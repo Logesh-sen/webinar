@@ -1,5 +1,78 @@
+/* Large desktop: 1500px+ */
+@media (min-width: 1500px) {
+    /* Active pricing box color for desktop only */
+    .pricing-box.active {
+        border-color: #2f3032;
+        background: #2f3032;
+    }
+
+    .pricing-box.active .pricing-head .glyph-icon::before {
+        background: #fff;
+        color: #a571aa;
+    }
+
+    .pricing-box.active .pricing-head h4 {
+        color: #fff;
+    }
+
+    .pricing-box.active .price-count span {
+        color: #fff;
+    }
+
+    .pricing-box.active .price-count h2 {
+        color: #a571aa;
+    }
+
+    .pricing-box.active .pricing-btn .btn {
+        border-radius: 10px;
+        background-color: #a571aa;
+        background: #a571aa;
+        color: #fff;
+    }
+
+    .pricing-box.active .pricing-btn .btn:hover {
+        background: #a152a8;
+        border-color: #a152a8;
+    }
+}
+
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+    /* Active pricing box color for desktop only */
+    .pricing-box.active {
+        border-color: #2f3032;
+        background: #2f3032;
+    }
+
+    .pricing-box.active .pricing-head .glyph-icon::before {
+        background: #fff;
+        color: #a571aa;
+    }
+
+    .pricing-box.active .pricing-head h4 {
+        color: #fff;
+    }
+
+    .pricing-box.active .price-count span {
+        color: #fff;
+    }
+
+    .pricing-box.active .price-count h2 {
+        color: #a571aa;
+    }
+
+    .pricing-box.active .pricing-btn .btn {
+        border-radius: 10px;
+        background-color: #a571aa;
+        background: #a571aa;
+        color: #fff;
+    }
+
+    .pricing-box.active .pricing-btn .btn:hover {
+        background: #a152a8;
+        border-color: #a152a8;
+    }
+
     .portfolio .col4 .grid-item {
         width: 24.9%;
         margin: 0;
@@ -78,6 +151,41 @@
 
     .pricing-head h4 {
         font-size: 24px;
+    }
+
+    /* Active pricing box color for desktop only */
+    .pricing-box.active {
+        border-color: #2f3032;
+        background: #2f3032;
+    }
+
+    .pricing-box.active .pricing-head .glyph-icon::before {
+        background: #fff;
+        color: #a571aa;
+    }
+
+    .pricing-box.active .pricing-head h4 {
+        color: #fff;
+    }
+
+    .pricing-box.active .price-count span {
+        color: #fff;
+    }
+
+    .pricing-box.active .price-count h2 {
+        color: #a571aa;
+    }
+
+    .pricing-box.active .pricing-btn .btn {
+        border-radius: 10px;
+        background-color: #a571aa;
+        background: #a571aa;
+        color: #fff;
+    }
+
+    .pricing-box.active .pricing-btn .btn:hover {
+        background: #a152a8;
+        border-color: #a152a8;
     }
 
     .blog-thumb .b-meta {

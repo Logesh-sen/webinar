@@ -274,10 +274,17 @@ label {
 
 .btn:hover {
     color: #fff;
+    background: #a152a8;
 }
 
 .btn:hover::before {
     opacity: 0;
+}
+
+.btn-outline-primary:hover {
+    background: #a152a8 !important;
+    border-color: #a152a8 !important;
+    color: #fff !important;
 }
 
 .breadcrumb>.active {
@@ -319,7 +326,7 @@ label {
 }
 
 #scrollUp:hover {
-    background: #a571aa;
+    background: #a152a8;
 }
 
 /* 2. header */
@@ -581,7 +588,7 @@ body {
 }
 
 .top-btn:hover {
-    background: #a571aa;
+    background: #a152a8;
     color: #fff;
 }
 
@@ -742,7 +749,7 @@ body {
 
 .second-header-btn .btn:hover {
     color: #fff;
-    background: #a571aa;
+    background: #a152a8;
 }
 
 .second-header-btn .btn::before {
@@ -928,7 +935,11 @@ body {
     background-color: #a571aa;
     box-shadow: 2.5px 4.33px 15px 0px rgba(165, 113, 170, 0.4);
     color: #fff;
+    transition: all 0.3s ease 0s;
+}
 
+.header-btn:hover {
+    background-color: #a152a8;
 }
 
 .search-top2 {
@@ -1100,7 +1111,7 @@ body {
 }
 
 .slider-bg2 .video-i:hover {
-    background: #a571aa;
+    background: #a152a8;
     padding: 14px;
     border-radius: 100%;
     width: 51px;
@@ -1262,7 +1273,7 @@ body {
 }
 
 .btn.ss-btn:hover {
-    background: #769757;
+    background: #a152a8;
     color: #fff;
 }
 
@@ -1694,8 +1705,8 @@ body {
 }
 
 .s-btn:hover {
-    background: #a571aa;
-    border-color: #a571aa;
+    background: #a152a8;
+    border-color: #a152a8;
     color: #fff;
 }
 
@@ -1880,7 +1891,7 @@ section:hover .section-title h2::before {
 }
 
 .single-services:hover .services-content span {
-    background: #a571aa;
+    background: #a152a8;
 }
 
 .single-services:hover::before {
@@ -4322,7 +4333,7 @@ section:hover .section-title h2::before {
 }
 
 .bsingle__content .blog__btn .btn:hover {
-    background: #a571aa;
+    background: #a152a8;
     color: #fff;
 }
 
@@ -4375,7 +4386,8 @@ section:hover .section-title h2::before {
 }
 
 .pricing-btn .btn.ss-btn:hover {
-    background: #769757;
+    background: #a152a8;
+    border-color: #a152a8;
 }
 
 .pricing-head {
@@ -4535,6 +4547,11 @@ section:hover .section-title h2::before {
     background: #a571aa;
     color: #fff;
     border-color: #a571aa;
+}
+
+.pricing-box.active .pricing-btn .btn:hover {
+    background: #a152a8;
+    border-color: #a152a8;
 }
 
 .pricing-box2 .pricing-head p {
@@ -4797,7 +4814,7 @@ section:hover .section-title h2::before {
 }
 
 .footer-social a:hover {
-    background: #a571aa;
+    background: #a152a8;
     color: #fff !important;
 }
 
