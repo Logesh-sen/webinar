@@ -271,8 +271,62 @@ label {
     z-index: 999;
     border-radius: 10;
 }
+.but {
+    -moz-user-select: none;
+    background: #a571aa;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    text-wrap: wrap;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: unset;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    z-index: 999;
+    border-radius: 10;
+}
+.buto {
+    -moz-user-select: none;
+    background: #a571aa;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    text-wrap: wrap;
+    padding: 22px 60px;
+    text-align: center;
+    text-transform: unset;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    z-index: 999;
+    border-radius: 10;
+}
 
 .btn:hover {
+    color: #fff;
+    background: #a152a8;
+}
+.but:hover {
+    color: #fff;
+    background: #a152a8;
+}
+.buto:hover {
     color: #fff;
     background: #a152a8;
 }
@@ -524,6 +578,15 @@ body {
     -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 }
 
+.menu-area.sticky-menu {
+    padding-top: 5px;
+}
+
+/* Center copyright text */
+.row.align-items-center .col-lg-6:first-child {
+    text-align: center;
+}
+
 .responsive {
     display: none;
 }
@@ -762,6 +825,10 @@ body {
 
 .header-two .container {
     max-width: 1400px;
+}
+
+.menu-area {
+    padding-top: 5px;
 }
 
 .header-two .menu-area {
