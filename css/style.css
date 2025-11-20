@@ -4372,11 +4372,6 @@ section:hover .section-title h2::before {
     background: #fff;
 }
 
-.pricing-btn {
-    margin-bottom: 60px;
-    margin-top: 30px;
-}
-
 .pricing-btn .btn.ss-btn {
     border-radius: 10px;
     background-color: #a571aa;

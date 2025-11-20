@@ -185,6 +185,12 @@
             color: #a571aa;
         }
 
+        /* Blog post image height */
+        .bsingle__post-thumb img {
+            height: 300px;
+            object-fit: cover;
+        }
+
         /* Search icon styling */
         .search-top2 {
             display: flex;
@@ -533,7 +539,7 @@
                             <div class="main-menu text-center">
                                 <nav id="mobile-menu" style="display: block;">
                                     <ul>
-                                        <li class="sub wrap"><a href="pricing.html">Webinaarimodulit & Hinnat</a></li>
+                                        <li class="sub wrap"><a href="pricing.html">Webinaarivaihtoehdot & Hinnat</a></li>
                                         <li class="sub">
                                             <a href="coaches.html">Valmentajat</a>
                                         </li>
@@ -577,7 +583,7 @@
                             </a>
                         </div>
                         <ul>
-                                    <li><a href="pricing.html">Webinaarimodulit & Hinnat</a></li>
+                                    <li><a href="pricing.html">Webinaarivaihtoehdot & Hinnat</a></li>
                                     <li><a href="coaches.html">Valmentajat</a></li>
                                     <li><a href="blog.html">Blogi</a></li>
                                     <li><a href="contact.html">Yhteystiedot</a></li>
@@ -641,20 +647,29 @@
                         <div class="col-lg-8">
                             <div class="bsingle__post mb-50">
                                 <div class="bsingle__post-thumb">
-                                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400&q=80" alt="Digital Marketing Webinar">
+                                    <img src="img/blog/blog.png" alt="Digital Marketing Webinar">
                                 </div>
                                 <div class="bsingle__content">
                                     <div class="admin">
-                                        <a href="#"><i class="far fa-user"></i> by Sarah Johnson</a>
+                                        <a href="#"><i class="far fa-user"></i> by Marke Tyrväinen</a>
                                     </div>
                                     
                                     
-                                    <h2><a href="blog-details.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, officiis.</a></h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quod aliquam ab voluptas, quam aspernatur corporis eligendi iusto laborum quia.</p>
+                                    <h2><a href="blog-details.html">Miten johdat itseäsi ja muita, kun projekti käynnistyy? Kuinka valmennat onnistumiseen?</a></h2>
+                                    <p>Projektin alkaessa moni meistä haluaa vaikuttaa,
+                                            saada aikaan ja onnistua. Mutta
+                                            miten
+                                            johdat itseäsi ja muita, kun aikataulut painavat, odotukset risteilevät ja
+                                            epävarmuus
+                                            iskee? Entä miten innostat ja tuet muita samalla ja saat projektin maaliin
+                                            aikataulussa?
+                                            <strong>Hyvä projektijohtaja johtaa sekä itseään että muita ja luo
+                                                edellytykset yhdessä
+                                                onnistumiselle.</strong></p>
                                     <div class="meta-info">
                                         <ul>
-                                            <li><i class="fal fa-eye"></i> 1,250 Views  </li>
-                                            <li><i class="fal fa-comments"></i> 42 Comments</li>
+                                            <!-- <li><i class="fal fa-eye"></i> 1,250 Views  </li>
+                                            <li><i class="fal fa-comments"></i> 42 Comments</li> -->
                                             <li><i class="fal fa-calendar-alt"></i> 15th January 2025</li>
                                         </ul>
                                     </div>
@@ -667,7 +682,7 @@
                                 </div>
                                <div class="bsingle__content">
                                     <div class="admin">
-                                        <a href="#"><i class="far fa-user"></i> by Michael Chen</a>
+                                        <a href="#"><i class="far fa-user"></i> By Johanna Kartila-Malmivaara</a>
                                     </div>
                                     
                                     
@@ -675,8 +690,8 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora qui tenetur laboriosam, animi atque omnis quisquam autem enim nulla!</p>
                                     <div class="meta-info">
                                         <ul>
-                                            <li><i class="fal fa-eye"></i> 2,180 Views  </li>
-                                            <li><i class="fal fa-comments"></i> 67 Comments</li>
+                                            <!-- <li><i class="fal fa-eye"></i> 2,180 Views  </li>
+                                            <li><i class="fal fa-comments"></i> 67 Comments</li> -->
                                             <li><i class="fal fa-calendar-alt"></i> 8th January 2025</li>
                                         </ul>
                                     </div>
@@ -767,7 +782,7 @@
                                     </div>
                                 </div>
                             </div> -->
-                            <div class="pagination-wrap">
+                            <!-- <div class="pagination-wrap">
                                 <nav>
                                     <ul class="pagination">
                                         <li class="page-item"><a href="#"><i class="fas fa-angle-double-left"></i></a></li>
@@ -779,12 +794,12 @@
                                         <li class="page-item"><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
                                     </ul>
                                 </nav>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- #right side -->
 <div class="col-sm-12 col-md-12 col-lg-4">
    <aside class="sidebar-widget">
-      <section id="search-3" class="widget widget_search">
+      <!-- <section id="search-3" class="widget widget_search">
          <h2 class="widget-title">Search</h2>
          <form role="search" method="get" class="search-form" action="">
             <label>
@@ -793,21 +808,17 @@
             </label>
             <input type="submit" class="search-submit" value="Search" />
          </form>
-      </section>
+      </section> -->
       <section id="custom_html-5" class="widget_text widget widget_custom_html">
-         <h2 class="widget-title">Follow Us</h2>
+         <h2 class="widget-title">Seuraa meitä</h2>
          <div class="textwidget custom-html-widget">
             <div class="widget-social">
-               <a href="#"><i class="fab fa-twitter"></i></a>
-               <a href="#"><i class="fab fa-pinterest-p"></i></a>
-               <a href="#"><i class="fab fa-facebook-f"></i></a>
                <a href="#"><i class="fab fa-instagram"></i></a>
-               <a href="#"><i class="fab fa-wordpress"></i></a>
             </div>
          </div>
       </section>
       <section id="categories-1" class="widget widget_categories">
-         <h2 class="widget-title">Categories</h2>
+         <h2 class="widget-title">Teemat</h2>
          <ul>
             <li class="cat-item cat-item-16"><a href="#">Digital Marketing</a> (8)</li>
             <li class="cat-item cat-item-23"><a href="#">Leadership</a> (6)</li>
@@ -818,7 +829,7 @@
          </ul>
       </section>
       <section id="recent-posts-4" class="widget widget_recent_entries">
-         <h2 class="widget-title">Recent Posts</h2>
+         <h2 class="widget-title">Viimeisimmät julkaisut</h2>
          <ul>
             <li>
                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, minima!</a>
@@ -957,7 +968,7 @@
                             </div>
                             <div class="footer-link">
                                 <ul>
-                                    <li><a href="about.html">Webinaarimodulit & Hinnat</a></li>
+                                    <li><a href="about.html">Webinaarivaihtoehdot & Hinnat</a></li>
                                     <li><a href="coaches.html">Valmentajat</a></li>
                                     <li><a href="blog.html">Blogi</a></li>
                                     <li><a href="contact.html">Yhteystiedot</a></li>
